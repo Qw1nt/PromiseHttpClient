@@ -1,0 +1,11 @@
+{
+  "name": "com.qw1nt.promisehttpclient",
+  "version": "0.0.1",
+  "displayName": "Promise Http Client",
+  "unity": "2021.3",
+  "unityRelease": "25f1",
+  "author": {
+    "name": "Qw1nt"
+  }
+}
+  
