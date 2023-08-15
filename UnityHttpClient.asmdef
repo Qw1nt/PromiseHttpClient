@@ -2,7 +2,8 @@
     "name": "UnityHttpClient",
     "rootNamespace": "",
     "references": [
-        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:b4517ec124862cb4bb3b8b27d72843a6"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
