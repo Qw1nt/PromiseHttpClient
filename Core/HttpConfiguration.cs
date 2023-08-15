@@ -38,6 +38,11 @@ namespace HttpClient.Core
             return new Uri($"{HttpConfiguration.Domain}{endpoint}");
         }
 
+        public static Uri BuildUriWithoutDomain(string request)
+        {
+            return new Uri(request);
+        }
+
         public static byte[] ToJsonBody(this object payload)
         {
             return Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(payload, Formatting.Indented, _settings));
